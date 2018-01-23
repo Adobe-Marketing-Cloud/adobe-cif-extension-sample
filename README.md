@@ -1,0 +1,1 @@
+# adobe-ccif-extension-sample
