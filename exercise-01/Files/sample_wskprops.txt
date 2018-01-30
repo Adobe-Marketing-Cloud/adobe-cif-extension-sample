@@ -1,0 +1,3 @@
+AUTH=
+APIHOST=runtime-preview.adobe.io
+NAMESPACE=

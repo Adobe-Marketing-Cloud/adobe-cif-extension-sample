@@ -1,4 +1,5 @@
 *** WARNING : REPO UNDER CONSTRUCTION ***
+================================================
 
 Adobe Commerce Cloud - Sample Extention Tutorial
 ================================================
@@ -27,3 +28,4 @@ Resources
 Links
 -----
 * [Intro to OpenWhisk](https://www.youtube.com/watch?v=phsSvI7JB48 )
+* [More examples on OpenWhisk](https://www.raymondcamden.com/2017/01/06/an-example-of-an-openwhisk-sequence)
