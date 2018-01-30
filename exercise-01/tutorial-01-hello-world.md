@@ -1,28 +1,40 @@
 Exercise 1 
-	Go to Home directory
+===========
+	1. Go to Home directory
+		```javascript
 		cd ~
-	Create .wskprops file 
+		```
+	2. Create .wskprops file 
+		```javascript
 		wsk property set --apihost runtime-preview.adobe.io --auth <Your auth code> --namespace <Your namespace>
+		```
 	Alternatively, you can create .wskprops file manually
+		```javascript
 		vi .wskprops
+		```
 		Enter following details
 			AUTH=
 			APIHOST=runtime-preview.adobe.io
 			NAMESPACE=
 	This sets up OpenWhisk to connect to Adobe I/O Runtime
 	Now let's deploy a Hello World Action. 
-		Create hello-world.js using a text editor or vi
+	3. Create hello-world.js using a text editor or vi
 			vi hello-world.js
 		paste the code below
+		```javascript
 			function main(params) {
    				return {payload: 'Hello ' + params.firstName + ' ' + params.lastName };
 			}
-	Let's deploy this to Runtime
+		```	
+	4. Let's deploy this to Runtime
+		```javascript
 		wsk action create hello-world hello-world.js
 		hello-world == name of the action 
 		hello-world.js file to execute for the action hello-world
-	Let's invoke this action
-		wsk action invoke hello-world --result --param firstName Gary --param lastName Kirsten
+		```
+	5. Let's invoke this action
+		```javascript wsk action invoke hello-world --result --param firstName Gary --param lastName Kirsten
+		```
 		
 		--result == blocking call, show me result after the execution 
 		
