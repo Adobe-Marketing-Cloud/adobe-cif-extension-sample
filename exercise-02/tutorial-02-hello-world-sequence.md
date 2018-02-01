@@ -23,21 +23,18 @@ Exercise 2
 	wsk package create seat-X-X
 	```
 	
-5. Let us create a sequence using two actions sequence files hello_sequence_action1.js and hello_sequence_action2.js. Please open both files in this directory and observe.
-
-
-6. Let's deploy these (**WARNING** Make sure to change seat-X-X to your package name example seat-firstname-lastname)
+5. Let us create a sequence using two actions sequence files hello_sequence_action1.js and hello_sequence_action2.js.  (**WARNING** Make sure to change seat-X-X to your package name example seat-firstname-lastname)
 	```ruby
 	wsk action create seat-X-X/action1 hello_sequence_action1.js
 	wsk action create seat-X-X/action2 hello_sequence_action2.js
 	```
 	
-7. Let's create a sequence with these two sequences
+6. Let's create a sequence with these two sequences
 	```ruby
 	wsk action create seat-X-X/hello-world-sequence --sequence seat-X-X/action1,seat-X-X/action2
 	```
 	
-8. Let's invoke 
+7. Let's invoke 
 	```ruby
 	wsk action invoke  seat-X-X/hello-world-sequence --result --param text "Hello, my name is Larry"
 	```	
