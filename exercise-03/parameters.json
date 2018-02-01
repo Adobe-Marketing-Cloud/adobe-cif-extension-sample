@@ -1,0 +1,871 @@
+{
+    "name": {
+        "de": "El Gordo Dauenjacke",
+        "en": "El Gordo Down Jacket"
+    },
+    "masterVariantId": "526dc571-104f-40fb-b761-71781a97910b-2",
+    "description": {
+        "de": "Jacke",
+        "en": "jacket"
+    },
+    "lastModifiedDate": "2018-01-22T19:42:06.726Z",
+    "id": "526dc571-104f-40fb-b761-71781a97910b",
+    "categories": [
+        {
+            "id": "743fd9df-6534-4962-85ab-6cc5e55635c7"
+        },
+        {
+            "id": "4e9d5410-4ce5-457e-9c0a-a69346d302ac"
+        }
+    ],
+    "variantAxes": [
+        {
+            "id": "color",
+            "name": {
+                "en": "Color"
+            },
+            "values": [
+                {
+                    "value": "green",
+                    "name": {
+                        "de": "grün",
+                        "en": "green"
+                    }
+                },
+                {
+                    "value": "purple",
+                    "name": {
+                        "de": "lila",
+                        "en": "purple"
+                    }
+                },
+                {
+                    "value": "red",
+                    "name": {
+                        "en": "red",
+                        "de": "rot"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "size",
+            "name": {
+                "en": "Size"
+            },
+            "values": [
+                {
+                    "value": "S",
+                    "name": {
+                        "en": "S"
+                    }
+                },
+                {
+                    "value": "M",
+                    "name": {
+                        "en": "M"
+                    }
+                },
+                {
+                    "value": "L",
+                    "name": {
+                        "en": "L"
+                    }
+                },
+                {
+                    "value": "XL",
+                    "name": {
+                        "en": "XL"
+                    }
+                },
+                {
+                    "value": "XS",
+                    "name": {
+                        "en": "XS"
+                    }
+                }
+            ]
+        }
+    ],
+    "variants": [
+        {
+            "sku": "meskwielt.1-s",
+            "assets": [
+                {
+                    "id": "meskwielt.1-s-eebwHdOz.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.1-s-eebwHdOz.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 11900
+                },
+                {
+                    "currency": "USD",
+                    "centAmount": 11000
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climates and conditions\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                    }
+                },
+                {
+                    "id": "colorFreeDefinition",
+                    "name": {
+                        "en": "Year"
+                    },
+                    "value": {
+                        "en": "2017"
+                    }
+                },
+                {
+                    "id": "designer",
+                    "name": {
+                        "en": "designer"
+                    },
+                    "value": {
+                        "en": "Patagonia"
+                    }
+                }
+            ],
+            "id": "526dc571-104f-40fb-b761-71781a97910b-2",
+            "variantAttributes": [
+                {
+                    "id": "color",
+                    "value": "green"
+                },
+                {
+                    "id": "size",
+                    "value": "S"
+                }
+            ]
+        },
+        {
+            "sku": "meskwielt.1-m",
+            "assets": [
+                {
+                    "id": "meskwielt.1-m-Yr0w-PSL.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.1-m-Yr0w-PSL.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 11900
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                    }
+                },
+                {
+                    "id": "colorFreeDefinition",
+                    "name": {
+                        "en": "Year"
+                    },
+                    "value": {
+                        "en": "2017"
+                    }
+                },
+                {
+                    "id": "designer",
+                    "name": {
+                        "en": "designer"
+                    },
+                    "value": {
+                        "en": "Patagonia"
+                    }
+                }
+            ],
+            "id": "526dc571-104f-40fb-b761-71781a97910b-3",
+            "variantAttributes": [
+                {
+                    "id": "color",
+                    "value": "green"
+                },
+                {
+                    "id": "size",
+                    "value": "M"
+                }
+            ]
+        },
+        {
+            "sku": "meskwielt.1-l",
+            "assets": [
+                {
+                    "id": "meskwielt.1-l-Y9EqWggK.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.1-l-Y9EqWggK.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 13000
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                    }
+                },
+                {
+                    "id": "colorFreeDefinition",
+                    "name": {
+                        "en": "Year"
+                    },
+                    "value": {
+                        "en": "2017"
+                    }
+                },
+                {
+                    "id": "designer",
+                    "name": {
+                        "en": "designer"
+                    },
+                    "value": {
+                        "en": "Patagonia"
+                    }
+                }
+            ],
+            "id": "526dc571-104f-40fb-b761-71781a97910b-4",
+            "variantAttributes": [
+                {
+                    "id": "color",
+                    "value": "green"
+                },
+                {
+                    "id": "size",
+                    "value": "L"
+                }
+            ]
+        },
+        {
+            "sku": "meskwielt.1-xl",
+            "assets": [
+                {
+                    "id": "meskwielt.1-xl-2f13Ra7r.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.1-xl-2f13Ra7r.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 13000
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                    }
+                }
+            ],
+            "id": "526dc571-104f-40fb-b761-71781a97910b-5",
+            "variantAttributes": [
+                {
+                    "id": "color",
+                    "value": "green"
+                },
+                {
+                    "id": "size",
+                    "value": "XL"
+                }
+            ]
+        },
+        {
+            "sku": "meskwielt.2-xs",
+            "assets": [
+                {
+                    "id": "meskwielt.2-xs-aNL1imZk.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.2-xs-aNL1imZk.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 11900
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes."
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                    }
+                }
+            ],
+            "id": "526dc571-104f-40fb-b761-71781a97910b-6",
+            "variantAttributes": [
+                {
+                    "id": "color",
+                    "value": "purple"
+                },
+                {
+                    "id": "size",
+                    "value": "XS"
+                }
+            ]
+        },
+        {
+            "sku": "meskwielt.2-s",
+            "assets": [
+                {
+                    "id": "meskwielt.2-s-9nQ0z6_l.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.2-s-9nQ0z6_l.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 11900
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                    }
+                }
+            ],
+            "id": "526dc571-104f-40fb-b761-71781a97910b-7",
+            "variantAttributes": [
+                {
+                    "id": "color",
+                    "value": "purple"
+                },
+                {
+                    "id": "size",
+                    "value": "S"
+                }
+            ]
+        },
+        {
+            "sku": "meskwielt.2-m",
+            "assets": [
+                {
+                    "id": "meskwielt.2-m-VIrYgr2t.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.2-m-VIrYgr2t.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 11900
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                    }
+                }
+            ],
+            "id": "526dc571-104f-40fb-b761-71781a97910b-8",
+            "variantAttributes": [
+                {
+                    "id": "color",
+                    "value": "purple"
+                },
+                {
+                    "id": "size",
+                    "value": "M"
+                }
+            ]
+        },
+        {
+            "sku": "meskwielt.2-l",
+            "assets": [
+                {
+                    "id": "meskwielt.2-l-uWuca8eH.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.2-l-uWuca8eH.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 13000
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                    }
+                }
+            ],
+            "id": "526dc571-104f-40fb-b761-71781a97910b-9",
+            "variantAttributes": [
+                {
+                    "id": "color",
+                    "value": "purple"
+                },
+                {
+                    "id": "size",
+                    "value": "L"
+                }
+            ]
+        },
+        {
+            "sku": "meskwielt.2-xl",
+            "assets": [
+                {
+                    "id": "meskwielt.2-xl-HzWIbFyz.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.2-xl-HzWIbFyz.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 13000
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                    }
+                }
+            ],
+            "id": "526dc571-104f-40fb-b761-71781a97910b-10",
+            "variantAttributes": [
+                {
+                    "id": "color",
+                    "value": "purple"
+                },
+                {
+                    "id": "size",
+                    "value": "XL"
+                }
+            ]
+        },
+        {
+            "sku": "meskwielt.3-xs",
+            "assets": [
+                {
+                    "id": "meskwielt.3-xs-phPRQ_sz.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.3-xs-phPRQ_sz.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 11900
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                    }
+                }
+            ],
+            "id": "526dc571-104f-40fb-b761-71781a97910b-11",
+            "variantAttributes": [
+                {
+                    "id": "color",
+                    "value": "red"
+                },
+                {
+                    "id": "size",
+                    "value": "XS"
+                }
+            ]
+        },
+        {
+            "sku": "meskwielt.3-s",
+            "assets": [
+                {
+                    "id": "meskwielt.3-s-RmdP2fbR.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.3-s-RmdP2fbR.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 11900
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                    }
+                }
+            ],
+            "id": "526dc571-104f-40fb-b761-71781a97910b-12",
+            "variantAttributes": [
+                {
+                    "id": "color",
+                    "value": "red"
+                },
+                {
+                    "id": "size",
+                    "value": "S"
+                }
+            ]
+        },
+        {
+            "sku": "meskwielt.3-m",
+            "assets": [
+                {
+                    "id": "meskwielt.3-m-D1J5YBAP.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.3-m-D1J5YBAP.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 11900
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                    }
+                }
+            ],
+            "id": "526dc571-104f-40fb-b761-71781a97910b-13",
+            "variantAttributes": [
+                {
+                    "id": "color",
+                    "value": "red"
+                },
+                {
+                    "id": "size",
+                    "value": "M"
+                }
+            ]
+        },
+        {
+            "sku": "meskwielt.3-l",
+            "assets": [
+                {
+                    "id": "meskwielt.3-l-mKLeIBkw.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.3-l-mKLeIBkw.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 13000
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                    }
+                }
+            ],
+            "id": "526dc571-104f-40fb-b761-71781a97910b-14",
+            "variantAttributes": [
+                {
+                    "id": "color",
+                    "value": "red"
+                },
+                {
+                    "id": "size",
+                    "value": "L"
+                }
+            ]
+        },
+        {
+            "sku": "meskwielt.3-xl",
+            "assets": [
+                {
+                    "id": "meskwielt.3-xl-ubW4k1Fq.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.3-xl-ubW4k1Fq.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 13000
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                    }
+                }
+            ],
+            "id": "526dc571-104f-40fb-b761-71781a97910b-15",
+            "variantAttributes": [
+                {
+                    "id": "color",
+                    "value": "red"
+                },
+                {
+                    "id": "size",
+                    "value": "XL"
+                }
+            ]
+        },
+        {
+            "sku": "meskwielt.1-xs",
+            "assets": [
+                {
+                    "id": "El+Gordo+Red-tPj6M5W2.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/El+Gordo+Red-tPj6M5W2.jpg"
+                },
+                {
+                    "id": "El+Gordo+Purple-2Am2Nz0x.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/El+Gordo+Purple-2Am2Nz0x.jpg"
+                },
+                {
+                    "id": "meskwielt.1-s-eebwHd-ebqZzrsX.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.1-s-eebwHd-ebqZzrsX.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 11900
+                },
+                {
+                    "currency": "USD",
+                    "centAmount": 10900
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                    }
+                },
+                {
+                    "id": "colorFreeDefinition",
+                    "name": {
+                        "en": "Year"
+                    },
+                    "value": {
+                        "en": "2017"
+                    }
+                },
+                {
+                    "id": "designer",
+                    "name": {
+                        "en": "designer"
+                    },
+                    "value": {
+                        "en": "Patagonia"
+                    }
+                }
+            ],
+            "id": "526dc571-104f-40fb-b761-71781a97910b-1",
+            "variantAttributes": [
+                {
+                    "id": "color",
+                    "value": "green"
+                },
+                {
+                    "id": "size",
+                    "value": "XS"
+                }
+            ]
+        }
+    ],
+    "createdDate": "2017-01-11T14:58:29.432Z"
+}
