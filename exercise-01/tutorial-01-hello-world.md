@@ -18,7 +18,7 @@ Exercise 1
 5. Create a OpenWhisk Package (make sure to use a format seat-firstname-lastname)
 	WARNING: PLEASE REPLACE X with your firstname and lastname: seat-john-doe
 	```ruby
-	>> wsk package create seat-X-X
+	wsk package create seat-X-X
 	```
 6. Create a action for hello world using a sample provided 
 	```ruby
