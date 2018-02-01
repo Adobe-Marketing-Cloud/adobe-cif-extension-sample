@@ -1,46 +1,44 @@
 Exercise 2
 ===========
 
-	1. Create a sequence - list of actions executed in order
-	Samples taken from https://www.raymondcamden.com/2017/01/06/an-example-of-an-openwhisk-sequence
-	Let's create two actions
-		vi hello_sequence_action1.js
-		copy content
-		function main(params) {
+** WARNING: Steps 1 - 5 may be repetition for you, if you have done other exercises **
 
-    		var words = params.text.split(' ');
-    		return {array:words};
+1. Open Terminal.
 
-		}
-		
-		vi hello_sequence_action2.js
-		copy content
-		function main(params) {
-
-    		return { array:params.array.reverse() };
-    
-		}
-	2. Let's deploy these 
-		wsk action create action1 hello_sequence_action1.js
-		wsk action create action2 hello_sequence_action2.js
+2. Go to into a workspace (Example: If your workspace directory is *Desktop/l735*) 
+	```ruby	
+	cd Desktop/l735
+	```
+3. Checkout all code from Adobe Central GitHub repository
+	```ruby
+	git clone https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample.git 
+	```
+4. Go into adobe-cif-extension-sample
+	```ruby
+	cd adobe-cif-extension-sample/exercise-02
+	```
+5. Create a OpenWhisk Package (make sure to use a format seat-firstname-lastname)
+	WARNING: PLEASE REPLACE X with your firstname and lastname: seat-john-doe
+	```ruby
+	wsk package create seat-X-X
+	```
 	
-	3. Let's create a sequence with these two sequences
-		wsk action create hello-world-sequence --sequence action1,action2
-	
-	4. Let's invoke 
-		wsk action invoke hello-world-sequence --result --param-file parameters.json
-		
-		parameters.json 
-		{
-    		"text": "Hello my name is Kaushal"
-		}
+5. Let us create a sequence using two actions sequence files hello_sequence_action1.js and hello_sequence_action2.js. Please open both files in this directory and observe.
 
-		OR 
-		
-		wsk action invoke hello-world-sequence --result --param text "Hello, my name is Kaushal"
-		
-More details available at https://github.com/apache/incubator-openwhisk/blob/master/docs/actions.md
-If you don't want to do anything, all files are available in L735_Exercise2.zip
-		
-		
+
+6. Let's deploy these (**WARNING** Make sure to change seat-X-X to your package name example seat-firstname-lastname)
+	```ruby
+	wsk action create seat-X-X/action1 hello_sequence_action1.js
+	wsk action create seat-X-X/action2 hello_sequence_action2.js
+	```
+	
+7. Let's create a sequence with these two sequences
+	```ruby
+	wsk action create seat-X-X/hello-world-sequence --sequence seat-X-X/action1,seat-X-X/action2
+	```
+	
+8. Let's invoke 
+	```ruby
+	wsk action invoke  seat-X-X/hello-world-sequence --result --param text "Hello, my name is Larry"
+	```	
 	
