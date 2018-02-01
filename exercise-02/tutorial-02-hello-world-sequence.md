@@ -39,3 +39,16 @@ Exercise 2
 	wsk action invoke  seat-X-X/hello-world-sequence --result --param text "Hello, my name is Larry"
 	```	
 	
+8. Expected output
+	```ruby
+		{
+	    "array": [
+		"Larry",
+		"is",
+		"name",
+		"my",
+		"Hello,"
+	    ]
+	}
+	```
+	
