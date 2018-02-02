@@ -89,5 +89,10 @@ Exercise 3 - Create a CIF Package with Action Sequence
 	```
 6. Open PostMan and run the following command and see the response (as you can see discount is applied)
 
-	>> https://runtime-preview.adobe.io/api/v1/web/varun-venkataraman-namespace/seat-X-X/getDiscountedProduct.http?id=0156c6fc-c94e-4785-be58-c624b408777b
+	GET https://runtime.adobe.io/api/v1/web/summit2018-L735/seat-X-X/getDiscountedProduct.http?id=a60fe100-4121-4b74-b55b-18886579e202
+	>> discount is applied and product name is modified
+
+	GET https://runtime.adobe.io/api/v1/web/summit2018-L735/seat-X-X/getDiscountedProduct.http?id=7c8ee9b4-d11c-4ad4-b0d8-d7c58685fda1
+	>> discount is not applied since product does not belong to mens category
+
 
