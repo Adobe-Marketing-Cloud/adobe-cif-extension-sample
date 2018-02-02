@@ -86,7 +86,7 @@
             "prices": [
                 {
                     "currency": "USD",
-                    "centAmount": 3800
+                    "centAmount": 3610
                 }
             ],
             "simpleAttributes": [
@@ -140,7 +140,7 @@
             "prices": [
                 {
                     "currency": "USD",
-                    "centAmount": 3800
+                    "centAmount": 3610
                 }
             ],
             "simpleAttributes": [
@@ -194,7 +194,7 @@
             "prices": [
                 {
                     "currency": "USD",
-                    "centAmount": 3800
+                    "centAmount": 3610
                 }
             ],
             "simpleAttributes": [
@@ -248,7 +248,7 @@
             "prices": [
                 {
                     "currency": "USD",
-                    "centAmount": 3800
+                    "centAmount": 3610
                 }
             ],
             "simpleAttributes": [
@@ -302,7 +302,7 @@
             "prices": [
                 {
                     "currency": "USD",
-                    "centAmount": 3800
+                    "centAmount": 3610
                 }
             ],
             "simpleAttributes": [
