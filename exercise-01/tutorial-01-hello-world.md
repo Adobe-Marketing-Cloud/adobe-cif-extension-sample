@@ -39,6 +39,10 @@ Exercise 1
 	Blocking call
 	
 	>> -- results flag means its a blocking call. Try invoking the action without the results flag and getting the result via the activation command
+	
+	Parameters file
+	
+	>> Try invoking the action using the param-file flag and passing the parameters.json file.
 
 		
 	
