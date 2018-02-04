@@ -1,22 +1,11 @@
 Exercise 3 - Create a CIF Package with Action Sequence
 ========================================================
 
-
-1. Create a OpenWhisk Package using your seat ID (placed on seet of paper in front of your machine !!)
-
-	>> wsk package create seat-X-X
-
-	Example:
-
-	>> wsk package create seat-0-1
+1. If you don't have a package `seat-john-doe` created please follow steps in [Exercise 1](../exercise-01/tutorial-01-hello-world.md) or [Exercise 2](../exercise-02/tutorial-02-hello-world-sequence.md)
 
 2. Create Action 
 
 	>> wsk action create seat-X-X/applyDiscount applyDiscount.js
-
-	Example:
-
-	>> wsk action create seat-0-1/applyDiscount applyDiscount.js
 
 3. Create a Action Sequence
 
@@ -29,10 +18,6 @@ Exercise 3 - Create a CIF Package with Action Sequence
 5. Check if the newly created sequence has the right actions configured 
 
 	>> wsk action get seat-X-X/getDiscountedProduct
-
-	Example:
-
-	>> wsk action get seat-0-1/getDiscountedProduct
 
    Expected output
 

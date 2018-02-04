@@ -1,4 +1,4 @@
-Exercise 1 
+Exercise 1 - Create a Adobe I/O Hello World Action
 ===========
 
 1. Open Terminal.
