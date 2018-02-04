@@ -32,6 +32,14 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 	
 	>> wsk action invoke seat-X-X/hello-world --result --param firstName Gary --param lastName Kirsten
 	
+	Expected Result
+	
+	```ruby
+	    {
+        "payload": "Hello Gary Kristen"
+     }
+	```
+	
 8. Good to know: OpenWhisk Namespace and properties are already deployed for you. Checkout the .wskprop using below command on terminal
 	
 	>> cat ~/.wskprops
