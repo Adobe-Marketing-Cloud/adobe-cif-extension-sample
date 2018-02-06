@@ -23,10 +23,12 @@ TODO: prepare Connector pointing to LAB namespace on OW
 
 4. Instructor will update the sequence
 
-    (update /summit2018-L735/searchProducts action TODO Markus: provide wsk command to update the sequence)
-    TODO Markus: check regarding caching !!!! > change to max 60sec
+    wsk action update searchProducts --sequence "getProductsService,seat-X-X/applyDiscount,webActionTransformer" --web true
+
+    >> updates the default searchProduct sequence to use our applyDiscount action from exercise 3.
 
 5. Refresh the product page
 
 	>> product price updated                    (TODO add screenshot of PDP)
 
+    http://or1010051034240.corp.adobe.com:4502/content/we-retail/us/en/product.mehisulat-xs.html#mehisulat-xs
