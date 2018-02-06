@@ -2,7 +2,7 @@ Exercise 4 - Integrate CIF Services with AEM
 ============================================
 
 TODO: prepare Connector pointing to LAB namespace on OW
-> /apps/weretail/config.bladerunner/com.adobe.cq.commerce.cloud.pim.impl.CloudCommerceObjectMapperImpl.config
+/apps/cloudcommerce/config/com.adobe.cq.commerce.cloud.pim.impl.CloudCommerceObjectMapperImpl-default.config
 
 1. Start AEM
 
