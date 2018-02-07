@@ -12,7 +12,7 @@ Exercise 3 - Create a CIF Package with Action Sequence
 
 	Example:
 
-	>> wsk action create seat-0-1/applyDiscount applyDiscount.js --param discountCategory 693b0fc5-7283-4673-a362-589d37fb7b73
+	>> wsk action create seat-john-doe/applyDiscount applyDiscount.js --param discountCategory 693b0fc5-7283-4673-a362-589d37fb7b73
 
 3. Create a Action Sequence
 
@@ -28,61 +28,62 @@ Exercise 3 - Create a CIF Package with Action Sequence
 
 	Example:
 
-	>> wsk action get seat-0-1/getDiscountedProducts
+	>> wsk action get seat-john-doe/getDiscountedProducts
 
    Expected output
-
-	```ruby
-	ok: got action seat-X-X/getDiscountedProducts
-{
-    "namespace": "summit2018-L735/seat-X-X",
-    "name": "getDiscountedProducts",
-    "version": "0.0.1",
-    "exec": {
-        "kind": "sequence",
-        "components": [
-            "/summit2018-L735/getProductsService",
-            "/summit2018-L735/seat-X-X/applyDiscount",
-            "/summit2018-L735/webActionTransformer"
-        ]
-    },
-    "annotations": [
-        {
-            "key": "web-export",
-            "value": true
-        },
-        {
-            "key": "raw-http",
-            "value": false
-        },
-        {
-            "key": "final",
-            "value": true
-        },
-        {
-            "key": "exec",
-            "value": "sequence"
-        }
-    ],
-    "parameters": [
-        {
-            "key": "_actions",
-            "value": [
-                "/summit2018-L735/getProductsService",
-                "/summit2018-L735/seat-X-X/applyDiscount",
-                "/summit2018-L735/webActionTransformer"
-            ]
-        }
-    ],
-    "limits": {
-        "timeout": 60000,
-        "memory": 256,
-        "logs": 10
-    },
-    "publish": false
-}
-
-	```
+   
+   ```ruby 
+   
+   ok: got action seat-X-X/getDiscountedProducts
+   {
+       "namespace": "summit2018-L735/seat-X-X",
+       "name": "getDiscountedProducts",
+       "version": "0.0.1",
+       "exec": {
+           "kind": "sequence",
+           "components": [
+               "/summit2018-L735/getProductsService",
+               "/summit2018-L735/seat-X-X/applyDiscount",
+               "/summit2018-L735/webActionTransformer"
+           ]
+       },
+       "annotations": [
+           {
+               "key": "web-export",
+               "value": true
+           },
+           {
+               "key": "raw-http",
+               "value": false
+           },
+           {
+               "key": "final",
+               "value": true
+           },
+           {
+               "key": "exec",
+               "value": "sequence"
+           }
+       ],
+       "parameters": [
+           {
+               "key": "_actions",
+               "value": [
+                   "/summit2018-L735/getProductsService",
+                   "/summit2018-L735/seat-X-X/applyDiscount",
+                   "/summit2018-L735/webActionTransformer"
+               ]
+           }
+       ],
+       "limits": {
+           "timeout": 60000,
+           "memory": 256,
+           "logs": 10
+       },
+       "publish": false
+   }
+   
+   ```
 6. Open PostMan and run the following command and see the response (as you can see discount is applied)
 
 	Sample call 1: (apply discount to default category - men)
