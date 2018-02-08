@@ -5,6 +5,7 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 ```
 	
 1. Open Terminal.
+
 	![Image of terminal on desktop](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/exercise-01/Files/Terminal.png)
 
 2. Go to into a workspace (Example: If your workspace directory is *Desktop/l735*)
