@@ -1,9 +1,9 @@
 Exercise 2 - Create a Adobe I/O Hello World Sequence
 ===========
 
+```diff
+- WARNING: Steps 1 - 5 may be repetition for you, if you have done other exercises -
 ```
-## WARNING: Steps 1 - 5 may be repetition for you, if you have done other exercises**
-
 	
 1. Open Terminal.
 
@@ -46,8 +46,6 @@ Exercise 2 - Create a Adobe I/O Hello World Sequence
 	
 	Learn more about [OpenWhisk Packages](https://github.com/apache/incubator-openwhisk/blob/master/docs/packages.md)
 	
-```
-
 ```diff
 - WARNING: PLEASE REPLACE seat-X-X with your FIRSTNAME and LASTNAME: Example: seat-john-doe -
 ```
