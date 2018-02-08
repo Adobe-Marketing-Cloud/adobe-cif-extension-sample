@@ -5,6 +5,7 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 ```
 	
 1. Open Terminal.
+	![Image of terminal on desktop](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/exercise-01/Files/Terminal.png)
 
 2. Go to into a workspace (Example: If your workspace directory is *Desktop/l735*)
  	
@@ -33,7 +34,8 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 	wsk package create seat-X-X
 	```
 	
-	Expected Output
+	**Expected Output**
+	
 	```diff
 	+ ok: created package seat-X-X
 	```
@@ -48,7 +50,7 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 	wsk action create seat-X-X/hello-world hello-world.js
 	```
 	
-	Expected Output
+	**Expected Output**
 	
 	```diff
 	+ ok: created action seat-V-V/hello-world
@@ -62,7 +64,7 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 	wsk action invoke seat-X-X/hello-world --result --param firstName Gary --param lastName Kirsten
 	```
 	
-	Expected Output
+	**Expected Output**
 	
 	```ruby
 	{
