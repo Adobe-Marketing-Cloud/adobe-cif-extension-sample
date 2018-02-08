@@ -63,6 +63,9 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 	Parameters file
 	
 	>> Try invoking the action using the param-file flag and passing the parameters.json file.
-
+	
+	```ruby
+	wsk action invoke seat-X-X/hello-world --result --param-file parameters.json
+	```
 		
 	
