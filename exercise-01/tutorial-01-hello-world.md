@@ -1,6 +1,9 @@
 Exercise 1 - Create a Adobe I/O Hello World Action
 ===========
-
+```diff
+- WARNING: PLEASE REPLACE seat-X-X with your FIRSTNAME and LASTNAME: Example: seat-john-doe -
+```
+	
 1. Open Terminal.
 
 2. Go to into a workspace (Example: If your workspace directory is *Desktop/l735*)
@@ -22,11 +25,20 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 	```
 	
 5. Create a OpenWhisk Package (make sure to use a format seat-firstname-lastname)
-	![#f03c15](https://placehold.it/15/f03c15/000000?text=+)  **WARNING: PLEASE REPLACE X with your firstname and lastname: seat-john-doe**
+	```diff
+	**WARNING: PLEASE REPLACE X with your firstname and lastname: seat-john-doe**
+	```
 	
 	```ruby
 	wsk package create seat-X-X
 	```
+	
+	Expected Output
+	```diff
+	+ ok: created package seat-X-X
+	```
+	
+	
 	
 	Learn more about [OpenWhisk Packages](https://github.com/apache/incubator-openwhisk/blob/master/docs/packages.md)
 	
@@ -34,6 +46,12 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 	
 	```ruby
 	wsk action create seat-X-X/hello-world hello-world.js
+	```
+	
+	Expected Output
+	
+	```diff
+	+ ok: created action seat-V-V/hello-world
 	```
 	
 	Learn more about the [action command](https://github.com/apache/incubator-openwhisk/blob/master/docs/actions.md)
@@ -44,7 +62,7 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 	wsk action invoke seat-X-X/hello-world --result --param firstName Gary --param lastName Kirsten
 	```
 	
-	Expected Result
+	Expected Output
 	
 	```ruby
 	{
@@ -53,12 +71,10 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 	```
 	
 8. Good to know: OpenWhisk Namespace and properties are already deployed for you. Checkout the .wskprop using below command on terminal
-	
-	>> cat ~/.wskprops
-	
-	Blocking call
-	
-	>> -- results flag means its a blocking call. Try invoking the action without the results flag and getting the result via the activation command
+
+	```ruby
+	cat ~/.wskprops
+	```
 	
 	Parameters file
 	
