@@ -3,6 +3,7 @@ Exercise 2 - Create a Adobe I/O Hello World Sequence
 
 ```diff
 - WARNING: Steps 1 - 5 may be repetition for you, if you have done other exercises -
+- WARNING: PLEASE REPLACE seat-X-X with your FIRSTNAME and LASTNAME: Example: seat-john-doe -
 ```
 	
 1. Open Terminal.
@@ -56,7 +57,7 @@ Exercise 2 - Create a Adobe I/O Hello World Sequence
 	wsk action create seat-X-X/action1 hello_sequence_action1.js
 	```
 	```ruby
-	>> wsk action create seat-X-X/action2 hello_sequence_action2.js
+	wsk action create seat-X-X/action2 hello_sequence_action2.js
 	```
 	
 7. Let's create a sequence with these two sequences
@@ -72,8 +73,8 @@ Exercise 2 - Create a Adobe I/O Hello World Sequence
 	```
 	
 8. Expected output
-	```ruby
-		{
+	```json
+	{
 	    "array": [
 		"Larry",
 		"is",
