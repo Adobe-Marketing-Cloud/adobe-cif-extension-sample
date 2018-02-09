@@ -6,8 +6,6 @@ Adobe Commerce Cloud - Sample Extention Tutorial
 
 This tutorial goes through key exercises to help you understand Adobe IO Runtime and work on Adobe IO Runtime to build extension to Adobe Commerce Cloud. 
 
-As a bonus track, we intend to show how to use some of Adobe solutions in the Experience Cloud to personalise your commerce items.
-
 Sections
 --------
 
@@ -15,11 +13,6 @@ Sections
 2 [Exercise 2 - Build and Deploy Hello World Sequence to Adobe IO Runtime](exercise-02/tutorial-02-hello-world-sequence.md)  
 3 [Exercise 3 - Build and Deploy a Commerce sequence for to Commerce Cloud](exercise-03/tutorial-03-extend-ccif.md)  
 4 [Exercise 4 - Run AEM & view the API change from Ex3 reflected](exercise-04/tutorial-04-modify-deploy-ccif-sequence.md) 
-
-Bonus
------
-
-5. [TBA](exercise-05/tba.md)
 
 Resources
 ---------

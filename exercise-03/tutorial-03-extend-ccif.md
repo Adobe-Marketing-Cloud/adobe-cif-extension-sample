@@ -129,7 +129,20 @@ Exercise 3 - Create a CIF Package with Action Sequence
     ```
 	discount is applied to all product in the men's > shirts category, product name is suffied as well
 
-7. Overall outcome
+7. **Bonus**: Debug I/O Runtime actions
+
+    Run the OpenWhisk Cli to pool all action invocation messages
+    ```ruby
+    wsk activation poll
+    ````
+
+    Re-run URL calls from Step 6.
+
+    Expected output: get information and logging information from you actions
+
+    Hint: you can also do a combination of `wsk activation list` and `wsk activation get <id>` to get action invocation details.
+
+8. Overall outcome
 
 ![Image of ex3 outcome](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/Resources/ex3.png)  
 
