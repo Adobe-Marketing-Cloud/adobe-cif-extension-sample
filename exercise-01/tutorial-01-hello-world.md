@@ -7,8 +7,7 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 
 
 ## Tasks
-Exercise 1 - Create a Adobe I/O Hello World Action
-===========
+
 ```diff
 - WARNING: PLEASE REPLACE seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME} with your FIRSTNAME and LASTNAME: Example: seat-john-doe -
 ```
