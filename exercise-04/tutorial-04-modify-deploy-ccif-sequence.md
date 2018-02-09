@@ -18,8 +18,13 @@ TODO: prepare Connector pointing to LAB namespace on OW
 
     Click on products
     Click on Men's categaory
-    Click on Amsterdam Short-Sleeve Travel Shirt (TODO add URL !!)
-    >> see product price of                      (TODO add screenshot of PDP)
+    http://or1010051034240.corp.adobe.com:4502/content/we-retail/us/en/category.693b0fc5-7283-4673-a362-589d37fb7b73.html 
+
+    Click on Amsterdam Short-Sleeve Travel Shirt
+    http://or1010051034240.corp.adobe.com:4502/content/we-retail/us/en/product.meotsuamt-xs.html 
+        
+    >> see "Amsterdam Short-Sleeve Travel Shirt" product page
+    ![Orginal Product](AmsterdamShirt-original.png)
 
 4. Instructor will update the sequence
 
