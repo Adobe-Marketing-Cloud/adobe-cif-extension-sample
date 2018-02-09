@@ -1,36 +1,63 @@
 Exercise 3 - Create a CIF Package with Action Sequence
 ========================================================
 
+## Tasks
+
+	```diff
+	- **WARNING: PLEASE REPLACE seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME} with your firstname and lastname: seat-john-doe**
+	```
 
 1. If you don't have a package `seat-john-doe` created please follow steps in [Exercise 1](../exercise-01/tutorial-01-hello-world.md) or [Exercise 2](../exercise-02/tutorial-02-hello-world-sequence.md)
 
 2. Create Action 
 
-    `wsk action create seat-X-X/applyDiscount applyDiscount.js --param discountCategory 743fd9df-6534-4962-85ab-6cc5e55635c7`
+    ```ruby
+    wsk action create seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/applyDiscount applyDiscount.js --param discountCategory 743fd9df-6534-4962-85ab-6cc5e55635c7
+    ```
 
 	For the "discountCategory" parameter we provide a default value, which is used of not categeory is prodvided via URL query parameter. The category we use here is Men's Coats. See step 6.
 
 	Example:
 
-	`wsk action create seat-john-doe/applyDiscount applyDiscount.js --param discountCategory 743fd9df-6534-4962-85ab-6cc5e55635c7`
+    ```ruby
+    wsk action create seat-john-doe/applyDiscount applyDiscount.js --param discountCategory 743fd9df-6534-4962-85ab-6cc5e55635c7
+    ```
 
 3. Create a Action Sequence
 
-	`wsk action create seat-X-X/getDiscountedProducts --sequence "getProductsService,seat-X-X/applyDiscount,webActionTransformer" --web true`
+	```ruby
+    wsk action create seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/getDiscountedProducts --sequence "getProductsService,seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/applyDiscount,webActionTransformer" --web true
+    ```
 
 4. Check if the action sequence is reated
 
-	`wsk action list`
+	```ruby
+    wsk action list
+    ```
+
+    Expected output
+   
+    ```ruby 
+    actions
+    /summit2018-L735/seat-X-X/applyDiscount                                private nodejs:6
+    /summit2018-L735/seat-X-X/hello-world                                  private nodejs:6
+    /summit2018-L735/seat-X-X/getDiscountedProducts                        private sequence
+    /summit2018-L735/searchProducts                                        private sequence
+    /summit2018-L735/postShippingMethod                                    private sequence
+    /summit2018-L735/postPayment                                           private sequence
+    ...
+    ```
 
 5. Check if the newly created sequence has the right actions configured 
 
-	`wsk action get seat-X-X/getDiscountedProducts`
+	```ruby
+    wsk action get seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/getDiscountedProducts
+    ```
 
    Expected output
    
-   ```json 
-   
-   ok: got action seat-X-X/getDiscountedProducts
+   ```ruby 
+   ok: got action seat-john-doe/getDiscountedProducts
    {
        "namespace": "summit2018-L735/seat-X-X",
        "name": "getDiscountedProducts",
@@ -84,13 +111,13 @@ Exercise 3 - Create a CIF Package with Action Sequence
 
 	**Sample call 1**: apply discount to default category - men's coats
 	```
-    GET https://runtime.adobe.io/api/v1/web/summit2018-L735/seat-X-X/getDiscountedProducts.http?text=jacket
-    ```
+    GET https://runtime.adobe.io/api/v1/web/summit2018-L735/seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/getDiscountedProducts.http?text=jacket
+    ```ruby
 	discount is applied to all product in the men's coat category, product name is suffied as well
 
 	**Sample call 2**: apply discount to default category provide as param
-	```
-    GET https://runtime.adobe.io/api/v1/web/summit2018-L735/seat-X-X/getDiscountedProducts.http?text=shirt&discountCategory=1146e785-0a44-47d7-a9d4-744f219843fd
+	```ruby
+    GET https://runtime.adobe.io/api/v1/web/summit2018-L735/seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/getDiscountedProducts.http?text=shirt&discountCategory=1146e785-0a44-47d7-a9d4-744f219843fd
     ```
 	discount is applied to all product in the men's > shirts category, product name is suffied as well
 
