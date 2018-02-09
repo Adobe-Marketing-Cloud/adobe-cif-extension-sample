@@ -82,13 +82,13 @@ Exercise 3 - Create a CIF Package with Action Sequence
    ```
 6. Open PostMan and run the following command and see the response (as you can see discount is applied)
 
-	Sample call 1: (apply discount to default category - men)
+	**Sample call 1**: apply discount to default category - men
 	```
     GET https://runtime.adobe.io/api/v1/web/summit2018-L735/seat-X-X/getDiscountedProducts.http?id=a60fe100-4121-4b74-b55b-18886579e202
     ```
 	discount is applied to all product in the men's category, product name is suffied as well
 
-	Sample call 2: (apply discount to default category provide as param)
+	**Sample call 2**: apply discount to default category provide as param
 	```
     GET https://runtime.adobe.io/api/v1/web/summit2018-L735/seat-X-X/getDiscountedProducts.http?text=shirt&discountCategory=1146e785-0a44-47d7-a9d4-744f219843fd
     ```
