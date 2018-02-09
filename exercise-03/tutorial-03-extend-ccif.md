@@ -29,6 +29,11 @@ Exercise 3 - Create a CIF Package with Action Sequence
     wsk action create seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/getDiscountedProducts --sequence "getProductsService,seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/applyDiscount,webActionTransformer" --web true
     ```
 
+    Expected output
+    ```ruby
+    ok: created action seat-X-X/getDiscountedProducts
+    ```
+
 4. Check if the action sequence is reated
 
 	```ruby
