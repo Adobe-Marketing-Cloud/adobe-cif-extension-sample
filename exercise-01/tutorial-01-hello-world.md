@@ -86,4 +86,8 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 	wsk action invoke seat-X-X/hello-world --result --param-file parameters.json
 	```
 		
+9. Overall outcome
+
+![Image of ex1 outcome](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/Resources/ex1.png)  
+
 	
