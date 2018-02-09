@@ -23,21 +23,24 @@ TODO: prepare Connector pointing to LAB namespace on OW
     Click on Amsterdam Short-Sleeve Travel Shirt
     http://or1010051034240.corp.adobe.com:4502/content/we-retail/us/en/product.meotsuamt-xs.html 
         
-    >> see "Amsterdam Short-Sleeve Travel Shirt" product page
+    see "Amsterdam Short-Sleeve Travel Shirt" product page
     ![Orginal Product](AmsterdamShirt-original.png)
 
 4. Instructor will update the sequence
 
+    ```
     wsk action update searchProducts --sequence "getProductsService,seat-X-X/applyDiscount,webActionTransformer" --web true
-
-    >> updates the default searchProduct sequence to use our applyDiscount action from exercise 3.
+    ```
+    
+    updates the default searchProduct sequence to use our applyDiscount action from exercise 3.
 
 5. Refresh the product page
 
-	>> product price updated                    (TODO add screenshot of PDP)
+	http://or1010051034240.corp.adobe.com:4502/content/we-retail/us/en/product.meotsuamt-xs.html 
 
-    http://or1010051034240.corp.adobe.com:4502/content/we-retail/us/en/product.mehisulat-xs.html#mehisulat-xs
+    see "Amsterdam Short-Sleeve Travel Shirt" product page with new discounted price and updated title
+    ![Orginal Product](AmsterdamShirt-discount.png) 
 
 6. Overall outcome
 
-![Image of ex4 outcome](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/Resources/ex4.png)  
+    ![Image of ex4 outcome](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/Resources/ex4.png)  
