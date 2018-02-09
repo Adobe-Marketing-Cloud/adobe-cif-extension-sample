@@ -3,9 +3,9 @@ Exercise 3 - Create a CIF Package with Action Sequence
 
 ## Tasks
 
-	```diff
-	- **WARNING: PLEASE REPLACE seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME} with your firstname and lastname: seat-john-doe**
-	```
+```ruby
+**WARNING: PLEASE REPLACE seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME} with your firstname and lastname: seat-john-doe**
+```
 
 1. If you don't have a package `seat-john-doe` created please follow steps in [Exercise 1](../exercise-01/tutorial-01-hello-world.md) or [Exercise 2](../exercise-02/tutorial-02-hello-world-sequence.md)
 
@@ -110,9 +110,9 @@ Exercise 3 - Create a CIF Package with Action Sequence
 6. Open PostMan and run the following command and see the response (as you can see discount is applied)
 
 	**Sample call 1**: apply discount to default category - men's coats
-	```
+	```ruby
     GET https://runtime.adobe.io/api/v1/web/summit2018-L735/seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/getDiscountedProducts.http?text=jacket
-    ```ruby
+    ```
 	discount is applied to all product in the men's coat category, product name is suffied as well
 
 	**Sample call 2**: apply discount to default category provide as param
