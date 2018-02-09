@@ -1,9 +1,17 @@
 Exercise 1 - Create a Adobe I/O Hello World Action
 ===========
+
+## Objective:
+
+![Image of ex1 outcome](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/Resources/ex1.png)  
+
+
+## Tasks
+
 ```diff
 - WARNING: PLEASE REPLACE seat-X-X with your FIRSTNAME and LASTNAME: Example: seat-john-doe
 ```
-	
+
 1. Open Terminal.
 	
 	![Image of terminal on desktop](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/Resources/Terminal.png)
