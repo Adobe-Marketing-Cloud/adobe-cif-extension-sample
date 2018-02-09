@@ -3,7 +3,7 @@ Exercise 3 - Create a CIF Package with Action Sequence
 
 ## Tasks
 
-```ruby
+```diff
 **WARNING: PLEASE REPLACE seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME} with your firstname and lastname: seat-john-doe**
 ```
 
