@@ -34,7 +34,8 @@ Exercise 2 - Create a Adobe I/O Hello World Sequence
 	>> wsk package create seat-X-X
 	```
 	
-6. Let us create a sequence using two actions sequence files hello_sequence_action1.js and hello_sequence_action2.js.  		```diff
+6. Let us create a sequence using two actions sequence files hello_sequence_action1.js and hello_sequence_action2.js.  		
+	```diff
 	- **WARNING: PLEASE REPLACE X with your firstname and lastname: seat-john-doe**
 	```
 	
