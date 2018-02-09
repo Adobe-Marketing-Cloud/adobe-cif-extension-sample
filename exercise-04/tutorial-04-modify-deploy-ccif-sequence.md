@@ -1,29 +1,32 @@
 Exercise 4 - Integrate CIF Services with AEM
 ============================================
 
-TODO: prepare Connector pointing to LAB namespace on OW
-/apps/cloudcommerce/config/com.adobe.cq.commerce.cloud.pim.impl.CloudCommerceObjectMapperImpl-default.config
+## Tasks
+
+```diff
+- **WARNING: PLEASE REPLACE seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME} with your firstname and lastname: seat-john-doe**
+```
 
 1. Goto to We.Retail Page
 
+    ```ruby
     http://localhost:4502/content/we-retail/us/en.html 
+    ```
 
 
 2. Navigate to product page **El Gordo Down Jacket** (red t-shirt)
 
     Click on products
     Click on Men's category
-    http://localhost:4502/content/we-retail/us/en/category.693b0fc5-7283-4673-a362-589d37fb7b73.html 
 
     Sample URL:
-    ```
+    ```ruby
     http://or1010051034240.corp.adobe.com:4502/content/we-retail/us/en/category.693b0fc5-7283-4673-a362-589d37fb7b73.html
     ```
 
     Click on Amsterdam Short-Sleeve Travel Shirt
-    http://localhost:4502/content/we-retail/us/en/product.meskwielt.1-s.html
-    
-    ```
+        
+    ```ruby
     http://or1010051034240.corp.adobe.com:4502/content/we-retail/us/en/product.meskwielt.1-s.html
     ```
 
@@ -32,7 +35,7 @@ TODO: prepare Connector pointing to LAB namespace on OW
 
 4. Instructor will update the sequence
 
-    ```
+    ```ruby
     wsk action update searchProducts --sequence "getProductsService,seat-X-X/applyDiscount,webActionTransformer" --web true
     ```
     
@@ -40,12 +43,13 @@ TODO: prepare Connector pointing to LAB namespace on OW
 
 5. Refresh the product page
     
-    ```
+    Reload:
+    ```ruby
     http://localhost:4502/content/we-retail/us/en/product.meskwielt.1-s.html
     ```
 
     Sample Server URL:
-    ```
+    ```ruby
     http://or1010051034240.corp.adobe.com:4502/content/we-retail/us/en/product.meskwielt.1-s.html
     ```
     
