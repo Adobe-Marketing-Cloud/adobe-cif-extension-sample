@@ -32,3 +32,7 @@ TODO: prepare Connector pointing to LAB namespace on OW
 	>> product price updated                    (TODO add screenshot of PDP)
 
     http://or1010051034240.corp.adobe.com:4502/content/we-retail/us/en/product.mehisulat-xs.html#mehisulat-xs
+
+9. Overall outcome
+
+![Image of ex4 outcome](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/Resources/ex4.png)  

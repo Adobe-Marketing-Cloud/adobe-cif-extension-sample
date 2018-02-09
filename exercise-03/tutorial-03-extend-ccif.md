@@ -94,5 +94,8 @@ Exercise 3 - Create a CIF Package with Action Sequence
 	GET https://runtime.adobe.io/api/v1/web/summit2018-L735/seat-X-X/getDiscountedProducts.http?text=shirt&discountCategory=1146e785-0a44-47d7-a9d4-744f219843fd
 	>> discount is applied to all product in the men's > shirts category, product name is suffied as well
 
+7. Overall outcome
+
+![Image of ex3 outcome](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/Resources/ex3.png)  
 
 

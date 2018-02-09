@@ -49,5 +49,10 @@ Exercise 2 - Create a Adobe I/O Hello World Sequence
 	    ]
 	}
 	```
-9. Learn more about [OpenWhisk sequence] (https://www.raymondcamden.com/2017/01/06/an-example-of-an-openwhisk-sequence)
+
+9. Overall outcome
+
+![Image of ex2 outcome](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/Resources/ex2.png)	
+
+10. Learn more about [OpenWhisk sequence] (https://www.raymondcamden.com/2017/01/06/an-example-of-an-openwhisk-sequence)
 	
