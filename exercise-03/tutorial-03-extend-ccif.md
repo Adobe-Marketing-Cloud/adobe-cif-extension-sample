@@ -1,6 +1,9 @@
 Exercise 3 - Create a CIF Package with Action Sequence
 ========================================================
 
+## Objective
+![Image of ex3 outcome](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/Resources/ex3.png)
+
 ## Tasks
 
 ```diff

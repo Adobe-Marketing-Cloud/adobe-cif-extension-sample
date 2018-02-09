@@ -1,6 +1,9 @@
 Exercise 4 - Integrate CIF Services with AEM
 ============================================
 
+## Objective
+![Image of ex4 outcome](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/Resources/ex4.png)
+
 ## Tasks
 
 ```diff
