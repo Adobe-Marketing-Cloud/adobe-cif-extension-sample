@@ -9,25 +9,26 @@ TODO: prepare Connector pointing to LAB namespace on OW
     http://localhost:4502/content/we-retail/us/en.html 
 
 
-2. Navigate to product page **Amsterdam Short-Sleeve Travel Shirt** (red t-shirt)
+2. Navigate to product page **El Gordo Down Jacket** (red t-shirt)
 
     Click on products
     Click on Men's category
     http://localhost:4502/content/we-retail/us/en/category.693b0fc5-7283-4673-a362-589d37fb7b73.html 
 
+    Sample URL:
     ```
-    Sample URL: http://or1010051034240.corp.adobe.com:4502/content/we-retail/us/en/category.693b0fc5-7283-4673-a362-589d37fb7b73.html
+    http://or1010051034240.corp.adobe.com:4502/content/we-retail/us/en/category.693b0fc5-7283-4673-a362-589d37fb7b73.html
     ```
 
     Click on Amsterdam Short-Sleeve Travel Shirt
-    http://localhost:4502/content/we-retail/us/en/product.meotsuamt-xs.html 
+    http://localhost:4502/content/we-retail/us/en/product.meskwielt.1-s.html
     
     ```
-    http://or1010051034240.corp.adobe.com:4502/content/we-retail/us/en/product.meotsuamt-xs.html
+    http://or1010051034240.corp.adobe.com:4502/content/we-retail/us/en/product.meskwielt.1-s.html
     ```
 
-    see **Amsterdam Short-Sleeve Travel Shirt** product page
-    ![Orginal Product](AmsterdamShirt-original.png)
+    see **El Gordo Down Jacket** product page
+    ![Orginal Product](ElGordoJacker-original.png)
 
 4. Instructor will update the sequence
 
@@ -40,15 +41,16 @@ TODO: prepare Connector pointing to LAB namespace on OW
 5. Refresh the product page
     
     ```
-	http://localhost:4502/content/we-retail/us/en/product.meotsuamt-xs.html 
+    http://localhost:4502/content/we-retail/us/en/product.meskwielt.1-s.html
     ```
 
+    Sample Server URL:
     ```
-    Sample Server URL: http://or1010051034240.corp.adobe.com:4502/content/we-retail/us/en/product.meotsuamt-xs.html
+    http://or1010051034240.corp.adobe.com:4502/content/we-retail/us/en/product.meskwielt.1-s.html
     ```
     
-    see **Amsterdam Short-Sleeve Travel Shirt** product page with new discounted price and updated title
-    ![Orginal Product](AmsterdamShirt-discount.png) 
+    see **El Gordo Down Jacket** product page with new discounted price and updated title
+    ![Orginal Product](ElGordoJacker-discount.png) 
 
 6. Overall outcome
 

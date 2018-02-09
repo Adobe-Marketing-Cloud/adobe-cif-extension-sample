@@ -6,13 +6,13 @@ Exercise 3 - Create a CIF Package with Action Sequence
 
 2. Create Action 
 
-    `wsk action create seat-X-X/applyDiscount applyDiscount.js --param discountCategory 693b0fc5-7283-4673-a362-589d37fb7b73`
+    `wsk action create seat-X-X/applyDiscount applyDiscount.js --param discountCategory 743fd9df-6534-4962-85ab-6cc5e55635c7`
 
-	For the "discountCategory" parameter we provide a default value, which is used of not categeory is prodvided via URL query parameter. See step 6.
+	For the "discountCategory" parameter we provide a default value, which is used of not categeory is prodvided via URL query parameter. The category we use here is Men's Coats. See step 6.
 
 	Example:
 
-	`wsk action create seat-john-doe/applyDiscount applyDiscount.js --param discountCategory 693b0fc5-7283-4673-a362-589d37fb7b73`
+	`wsk action create seat-john-doe/applyDiscount applyDiscount.js --param discountCategory 743fd9df-6534-4962-85ab-6cc5e55635c7`
 
 3. Create a Action Sequence
 
@@ -82,11 +82,11 @@ Exercise 3 - Create a CIF Package with Action Sequence
    ```
 6. Open PostMan and run the following command and see the response (as you can see discount is applied)
 
-	**Sample call 1**: apply discount to default category - men
+	**Sample call 1**: apply discount to default category - men's coats
 	```
-    GET https://runtime.adobe.io/api/v1/web/summit2018-L735/seat-X-X/getDiscountedProducts.http?id=a60fe100-4121-4b74-b55b-18886579e202
+    GET https://runtime.adobe.io/api/v1/web/summit2018-L735/seat-X-X/getDiscountedProducts.http?text=jacket
     ```
-	discount is applied to all product in the men's category, product name is suffied as well
+	discount is applied to all product in the men's coat category, product name is suffied as well
 
 	**Sample call 2**: apply discount to default category provide as param
 	```
