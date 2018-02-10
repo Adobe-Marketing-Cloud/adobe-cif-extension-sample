@@ -18,7 +18,7 @@ Exercise 3 - Create a CIF Package with Action Sequence
     wsk action create seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/applyDiscount applyDiscount.js --param discountCategory 743fd9df-6534-4962-85ab-6cc5e55635c7
     ```
 
-	For the "discountCategory" parameter we provide a default value, which is used of not categeory is prodvided via URL query parameter. The category we use here is Men's Coats. See step 6.
+	For the "discountCategory" parameter we provide a default value, which is used if category is not provided as a URL parameter. The category used here is Men's Coats. See step 6.
 
 	Example:
 
@@ -36,8 +36,10 @@ Exercise 3 - Create a CIF Package with Action Sequence
     ```ruby
     ok: created action seat-X-X/getDiscountedProducts
     ```
+    
+    Learn more about [web actions](https://github.com/apache/incubator-openwhisk/blob/master/docs/webactions.md)
 
-4. Check if the action sequence is reated
+4. Check if the action sequence is created
 
 	```ruby
     wsk action list
