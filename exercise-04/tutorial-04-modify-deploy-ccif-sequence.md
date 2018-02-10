@@ -24,13 +24,13 @@ Exercise 4 - Integrate CIF Services with AEM
 
     Sample URL:
     ```ruby
-    http://or1010051034240.corp.adobe.com:4502/content/we-retail/us/en/category.693b0fc5-7283-4673-a362-589d37fb7b73.html
+    http://localhost:4502/content/we-retail/us/en/category.693b0fc5-7283-4673-a362-589d37fb7b73.html
     ```
 
     Click on Amsterdam Short-Sleeve Travel Shirt
         
     ```ruby
-    http://or1010051034240.corp.adobe.com:4502/content/we-retail/us/en/product.meskwielt.1-s.html
+    http://localhost:4502/content/we-retail/us/en/product.meskwielt.1-s.html
     ```
 
     see **El Gordo Down Jacket** product page
@@ -53,7 +53,7 @@ Exercise 4 - Integrate CIF Services with AEM
 
     Sample Server URL:
     ```ruby
-    http://or1010051034240.corp.adobe.com:4502/content/we-retail/us/en/product.meskwielt.1-s.html
+    http://localhost:4502/content/we-retail/us/en/product.meskwielt.1-s.html
     ```
     
     see **El Gordo Down Jacket** product page with new discounted price and updated title
