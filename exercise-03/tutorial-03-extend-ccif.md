@@ -37,8 +37,9 @@ Exercise 3 - Create a CIF Package with Action Sequence
     ok: created action seat-X-X/getDiscountedProducts
     ```
     
-    The seqeunces used two actions (`searchProductsService` & `webActionTransformer`) from the `commercetools-products-actions@latest` package. This package which is already provided in the namespace.
-    You can run a 
+    The seqeunce uses two actions (`searchProductsService` & `webActionTransformer`) from the `commercetools-products-actions@latest` package. This package is already provided in the namespace.
+
+    You can run
     ```ruby
     wsk package get /summit2018-L735/commercetools-products-actions@latest
     ```
