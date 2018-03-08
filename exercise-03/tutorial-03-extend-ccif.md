@@ -141,7 +141,7 @@ Exercise 3 - Create a CIF Package with Action Sequence
 
 7. **Bonus**: Debug I/O Runtime actions
 
-    Run the OpenWhisk Cli to pool all action invocation messages
+    Run the OpenWhisk Cli to poll all action invocation messages
     ```ruby
     wsk activation poll
     ````
