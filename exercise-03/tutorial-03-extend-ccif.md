@@ -154,6 +154,4 @@ Exercise 3 - Create a CIF Package with Action Sequence
 
 8. Overall outcome
 
-![Image of ex3 outcome](.../Resources/ex3.png)  
-
-
+![Image of ex3 outcome](../Resources/ex3.png)
