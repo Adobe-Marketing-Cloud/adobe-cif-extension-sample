@@ -17,7 +17,7 @@ Exercise 2 - Create a Adobe I/O Hello World Sequence
 	```ruby
 	cd Desktop/l735
 	```
-3. Checkout all code from Adobe Central GitHub repository
+3. Checkout all code from Adobe Central GitHub repository and switch to the `magento` branch
 	```ruby
 	git clone https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample.git 
 	```
