@@ -74,5 +74,5 @@ Exercise 2 - Create a Adobe I/O Hello World Sequence
 
 ![Image of ex2 outcome](../Resources/ex2.png)	
 
-10. Learn more about [OpenWhisk sequence] (https://www.raymondcamden.com/2017/01/06/an-example-of-an-openwhisk-sequence)
+10. Learn more about [OpenWhisk sequence](https://www.raymondcamden.com/2017/01/06/an-example-of-an-openwhisk-sequence)
 	

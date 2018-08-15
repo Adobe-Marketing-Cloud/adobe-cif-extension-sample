@@ -17,14 +17,22 @@ The objective of this exercise is to setup your custom Adobe I/O Runtime namespa
 1. Setup wskprops file 
 ```wsk property set --apihost runtime.adobe.io --auth <Your auth code> --namespace <Your namespace>```
 
-2. Clone the [Magento CIF Repository](https://github.com/adobe/commerce-cif-magento) 
+2. Clone the [CIF Extension Sample](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample) repository
+	
+	```ruby
+	git clone https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample.git 
+	```
+
+3. Switch to the `magento` branch. 
+
+4. Clone the [Magento CIF Repository](https://github.com/adobe/commerce-cif-magento) 
 ```git clone https://github.com/adobe/commerce-cif-magento```
 
-3. In the cloned directory, go to the `customer-deployment` folder.
+5. In the cloned directory, go to the `customer-deployment` folder.
 
-4. Copy the `credentials-example.json` file to `credentials.json` file.
+6. Copy the `credentials-example.json` file to `credentials.json` file.
 
-5. Update the `credentials.json` file with your Magento connection details.
+7. Update the `credentials.json` file with your Magento connection details.
 ```
 {
     "MAGENTO_SCHEMA": "http",
@@ -39,12 +47,12 @@ The objective of this exercise is to setup your custom Adobe I/O Runtime namespa
 }
 ```
 
-6. Update `bindings-namespace` and `customer-namespace` properties in `package.json` file.
+8. Update `bindings-namespace` and `customer-namespace` properties in `package.json` file.
 ```
 "customer-namespace": "kmall",
 "bindings-namespace": "ccif-core-library",
 ```
 
-7. Run ```npm install; npm run deploy```
+9. Run ```npm install; npm run deploy```
 
-8. Complete details are available [here](https://github.com/adobe/commerce-cif-magento/tree/master/customer-deployment)
+10. Complete details are available [here](https://github.com/adobe/commerce-cif-magento/tree/master/customer-deployment)
