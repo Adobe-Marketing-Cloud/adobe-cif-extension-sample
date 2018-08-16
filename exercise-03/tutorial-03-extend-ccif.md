@@ -15,7 +15,7 @@ Exercise 3 - Create a CIF Package with Action Sequence
 2. Create Action 
 
     ```ruby
-    wsk action create seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/applyDiscount applyDiscount.js --param discountCategory 743fd9df-6534-4962-85ab-6cc5e55635c7
+    wsk action create seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/applyDiscount applyDiscount.js --param discountCategory 17
     ```
 
 	For the "discountCategory" parameter we provide a default value, which is used if category is not provided as a URL parameter. The category used here is Men's Coats. See step 6.
@@ -23,13 +23,13 @@ Exercise 3 - Create a CIF Package with Action Sequence
 	Example:
 
     ```ruby
-    wsk action create seat-john-doe/applyDiscount applyDiscount.js --param discountCategory 743fd9df-6534-4962-85ab-6cc5e55635c7
+    wsk action create seat-john-doe/applyDiscount applyDiscount.js --param discountCategory 17
     ```
 
 3. Create a Action Sequence
 
 	```ruby
-    wsk action create seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/getDiscountedProducts --sequence "commercetools-products-actions@latest/searchProductsService,seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/applyDiscount,commercetools-products-actions@latest/webActionTransformer" --web true
+    wsk action create seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/getDiscountedProducts --sequence "commerce-cif-magento-product@latest/searchProductsService,seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/applyDiscount,commerce-cif-magento-common@latest/webActionTransformer" --web true
     ```
 
     Expected output
@@ -37,11 +37,11 @@ Exercise 3 - Create a CIF Package with Action Sequence
     ok: created action seat-X-X/getDiscountedProducts
     ```
     
-    The seqeunce uses two actions (`searchProductsService` & `webActionTransformer`) from the `commercetools-products-actions@latest` package. This package is already provided in the namespace.
+    The seqeunce uses two actions (`searchProductsService` & `webActionTransformer`) from the `commerce-cif-magento-product@latest` and `commerce-cif-magento-common@latest` packages.
 
     You can run
     ```ruby
-    wsk package get /summit2018-L735/commercetools-products-actions@latest
+    wsk package get /YOUR_NAMESPACE/commerce-cif-magento-product@latest
     ```
     to see which OpenWhisk actions are contained in that package.
 
@@ -57,12 +57,12 @@ Exercise 3 - Create a CIF Package with Action Sequence
    
     ```ruby 
     actions
-    /summit2018-L735/seat-X-X/applyDiscount                                private nodejs:6
-    /summit2018-L735/seat-X-X/hello-world                                  private nodejs:6
-    /summit2018-L735/seat-X-X/getDiscountedProducts                        private sequence
-    /summit2018-L735/commerce/searchProducts                               private sequence
-    /summit2018-L735/commerce/postShippingMethod                           private sequence
-    /summit2018-L735/commerce/postPayment                                  private sequence
+    /YOUR_NAMESPACE/seat-X-X/applyDiscount                                private nodejs:6
+    /YOUR_NAMESPACE/seat-X-X/hello-world                                  private nodejs:6
+    /YOUR_NAMESPACE/seat-X-X/getDiscountedProducts                        private sequence
+    /YOUR_NAMESPACE/magento/searchProducts                               private sequence
+    /YOUR_NAMESPACE/magento/postShippingMethod                           private sequence
+    /YOUR_NAMESPACE/magento/postPayment                                  private sequence
     ...
     ```
 
@@ -77,15 +77,15 @@ Exercise 3 - Create a CIF Package with Action Sequence
    ```ruby 
    ok: got action seat-john-doe/getDiscountedProducts
    {
-       "namespace": "summit2018-L735/seat-X-X",
+       "namespace": "YOUR_NAMESPACE/seat-X-X",
        "name": "getDiscountedProducts",
        "version": "0.0.1",
        "exec": {
            "kind": "sequence",
            "components": [
-               "/summit2018-L735/commercetools-products-actions@latest/searchProductsService",
-               "/summit2018-L735/seat-X-X/applyDiscount",
-               "/summit2018-L735/commercetools-products-actions@latest/webActionTransformer"
+               "/YOUR_NAMESPACE/commerce-cif-magento-product@latest/searchProductsService",
+               "/YOUR_NAMESPACE/seat-X-X/applyDiscount",
+               "/YOUR_NAMESPACE/commerce-cif-magento-product@latest/webActionTransformer"
            ]
        },
        "annotations": [
@@ -110,9 +110,9 @@ Exercise 3 - Create a CIF Package with Action Sequence
            {
                "key": "_actions",
                "value": [
-                   "/summit2018-L735/commercetools-products-actions@latest/searchProductsService",
-                   "/summit2018-L735/seat-X-X/applyDiscount",
-                   "/summit2018-L735/commercetools-products-actions@latest/webActionTransformer"
+                   "/YOUR_NAMESPACE/commerce-cif-magento-product@latest/searchProductsService",
+                   "/YOUR_NAMESPACE/seat-X-X/applyDiscount",
+                   "/YOUR_NAMESPACE/commerce-cif-magento-product@latest/webActionTransformer"
                ]
            }
        ],
@@ -129,15 +129,15 @@ Exercise 3 - Create a CIF Package with Action Sequence
 
 	**Sample call 1**: apply discount to default category - men's coats
 	```ruby
-    GET https://runtime.adobe.io/api/v1/web/summit2018-L735/seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/getDiscountedProducts.http?text=jacket
+    GET https://runtime.adobe.io/api/v1/web/YOUR_NAMESPACE/seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/getDiscountedProducts.http?text=jacket
     ```
 	discount is applied to all product in the men's coat category, product name is suffied as well
 
 	**Sample call 2**: apply discount to default category provide as param
 	```ruby
-    GET https://runtime.adobe.io/api/v1/web/summit2018-L735/seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/getDiscountedProducts.http?text=shirt&discountCategory=1146e785-0a44-47d7-a9d4-744f219843fd
+    GET https://runtime.adobe.io/api/v1/web/YOUR_NAMESPACE/seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/getDiscountedProducts.http?text=shirt&discountCategory=15
     ```
-	discount is applied to all product in the men's > shirts category, product name is suffied as well
+	discount is applied to all product in the men's > shirts category, product name is suffixed as well
 
 7. **Bonus**: Debug I/O Runtime actions
 

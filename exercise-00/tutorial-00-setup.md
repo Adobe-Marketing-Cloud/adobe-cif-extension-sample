@@ -12,6 +12,7 @@ The objective of this exercise is to setup your custom Adobe I/O Runtime namespa
 3. You already have a Magento instance and the corresponding connection details.
 4. You already have [OpenWhisk CLI](https://github.com/apache/incubator-openwhisk-cli) downloaded and installed.
 5. You already have an AEM instance setup and running. 
+6. You already have NodeJS and NPM installed. 
 
 ## Tasks
 1. Setup wskprops file 
@@ -47,6 +48,12 @@ The objective of this exercise is to setup your custom Adobe I/O Runtime namespa
 }
 ```
 
+`MAGENTO_CUSTOMER_TOKEN_EXPIRATION_TIME` - logged in user token expiration for Magento
+`MAGENTO_MEDIA_PATH` - local directory where the product assets are stored in Magento
+`PRODUCT_ATTRIBUTES` - attributes that are relevant to determine the variants, used for display 
+`GRAPHQL_PRODUCT_ATTRIBUTES` - same as above, used for queries
+`MAGENTO_IGNORE_CATEGORIES_WITH_LEVEL_LOWER_THAN` - category tree level for navigation
+
 8. Update `bindings-namespace` and `customer-namespace` properties in `package.json` file.
 ```
 "customer-namespace": "kmall",
@@ -55,4 +62,20 @@ The objective of this exercise is to setup your custom Adobe I/O Runtime namespa
 
 9. Run ```npm install; npm run deploy```
 
-10. Complete details are available [here](https://github.com/adobe/commerce-cif-magento/tree/master/customer-deployment)
+10. Confirm that the bindings were successful. 
+
+```
+https://runtime.adobe.io/api/v1/web/YOUR_NAMESPACE/magento/searchProducts.http?text=jacket
+``` 
+
+11. Complete details are available [here](https://github.com/adobe/commerce-cif-magento/tree/master/customer-deployment)
+
+12. In the `serverless.yml` file, you can configure the `cachetime`. Also possible to do using `wsk package update` command. 
+
+```
+ commerce-cif-magento-category@latest:
+      binding: /${self:custom.bindings-namespace}/commerce-cif-magento-category@latest
+      parameters:
+        cachetime: 300
+        $<<: ${file(credentials.json)}
+```
