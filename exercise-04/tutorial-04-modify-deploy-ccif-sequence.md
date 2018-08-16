@@ -51,8 +51,9 @@ Exercise 4 - Integrate CIF Services with AEM
     http://localhost:4502/editor.html/content/we-retail/us/en/product.meskwielt.html
     ```
     
-    see **El Gordo Down Jacket** product page with new discounted price and updated title
-    ![Orginal Product](ElGordoJacker-discount.png) 
+    see **El Gordo Down Jacket** product page with new discounted price and updated title. 
+    _This page might take a while to refresh because of the configured cachetime. OOTB value is 300s. See [exercise-00](../exercise-00/tutorial-00-setup.md) for more details_
+    ![Orginal Product](ElGordoJacker-discount.png)
 
 6. Overall outcome
 

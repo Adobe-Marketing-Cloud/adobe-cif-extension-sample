@@ -70,7 +70,7 @@ https://runtime.adobe.io/api/v1/web/YOUR_NAMESPACE/magento/searchProducts.http?t
 
 11. Complete details are available [here](https://github.com/adobe/commerce-cif-magento/tree/master/customer-deployment)
 
-12. In the `serverless.yml` file, you can configure the `cachetime`. Also possible to do using `wsk package update` command. 
+12. In the `serverless.yml` file, you can configure the `cachetime`. Also possible to do using `wsk package update commerce-cif-magento-category@latest --param cachetime 400` command. 
 
 ```
  commerce-cif-magento-category@latest:
