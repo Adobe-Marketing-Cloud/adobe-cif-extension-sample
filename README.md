@@ -6,6 +6,7 @@ This tutorial goes through key exercises to help you understand Adobe IO Runtime
 Sections
 --------
 
+0 [Exercise 0 - Settings Things Up](exercise-00/tutorial-00-setup.md)
 1 [Exercise 1 - Build and Deploy Hello World to Adobe IO Runtime](exercise-01/tutorial-01-hello-world.md)  
 2 [Exercise 2 - Build and Deploy Hello World Sequence to Adobe IO Runtime](exercise-02/tutorial-02-hello-world-sequence.md)  
 3 [Exercise 3 - Build and Deploy a Commerce sequence for to Commerce Cloud](exercise-03/tutorial-03-extend-ccif.md)  
