@@ -75,9 +75,12 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 	
 	```ruby
 	wsk action invoke seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/hello-world --result --param-file parameters.json
+
 	```
+
+9. Good to know: `wsk activation poll` lets you tail the logs	
 		
-9. Overall outcome
+10. Overall outcome
 
 ![Image of ex1 outcome](../Resources/ex1.png)  
 
