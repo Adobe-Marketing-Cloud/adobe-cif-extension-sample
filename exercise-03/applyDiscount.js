@@ -3,7 +3,7 @@ function main(params) {
     let discountToApply = 0.05 // 5% discount
     let discountText = " - Today 5% off"
 
-    let discountCategory = parseInt(params.discountCategory)
+    let discountCategory = params.discountCategory
     console.log("[Debug] apply discount to category " + discountCategory)
 
     // get the product data from previous action and loop
