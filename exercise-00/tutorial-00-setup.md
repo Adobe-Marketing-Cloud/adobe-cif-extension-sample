@@ -57,11 +57,11 @@ The objective of this exercise is to setup your custom Adobe I/O Runtime namespa
 
 8. Update `bindings-namespace` and `customer-namespace` properties in `package.json` file.
 ```
-"customer-namespace": "kmall",
+"customer-namespace": "YOUR_NAMESPACE",
 "bindings-namespace": "ccif-core-library",
 ```
 
-9. Run ```npm install; npm run deploy```
+9. From the `customer-deployment` directory, run ```npm install; npm run deploy```
 
 10. Confirm that the bindings were successful. 
 
