@@ -28,7 +28,7 @@ The objective of this exercise is to setup your custom Adobe I/O Runtime namespa
 ```git clone https://github.com/adobe/commerce-cif-magento```
 
 4. Setup wskprops file 
-```wsk property set --apihost runtime.adobe.io --auth <Your auth code> --namespace <Your namespace>```
+```wsk property set --apihost adobeioruntime.net --auth <Your auth code> --namespace <Your namespace>```
 
 5. In the cloned directory, go to the `customer-deployment` folder.
 
@@ -66,7 +66,7 @@ The objective of this exercise is to setup your custom Adobe I/O Runtime namespa
 10. Confirm that the bindings were successful. 
 
 ```
-https://runtime.adobe.io/api/v1/web/YOUR_NAMESPACE/magento/searchProducts.http?text=jacket
+https://adobeioruntime.net/api/v1/web/YOUR_NAMESPACE/magento/searchProducts.http?text=jacket
 ``` 
 
 11. Complete details are available [here](https://github.com/adobe/commerce-cif-magento/tree/master/customer-deployment)

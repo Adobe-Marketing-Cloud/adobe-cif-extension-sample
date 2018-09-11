@@ -129,13 +129,13 @@ Exercise 3 - Create a CIF Package with Action Sequence
 
 	**Sample call 1**: apply discount to default category - men's coats
 	```ruby
-    GET https://runtime.adobe.io/api/v1/web/YOUR_NAMESPACE/seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/getDiscountedProducts.http?text=jacket
+    GET https://adobeioruntime.net/api/v1/web/YOUR_NAMESPACE/seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/getDiscountedProducts.http?text=jacket
     ```
 	discount is applied to all product in the men's coat category, product name is suffied as well
 
 	**Sample call 2**: apply discount to default category provide as param
 	```ruby
-    GET https://runtime.adobe.io/api/v1/web/YOUR_NAMESPACE/seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/getDiscountedProducts.http?text=shirt&discountCategory=15
+    GET https://adobeioruntime.net/api/v1/web/YOUR_NAMESPACE/seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/getDiscountedProducts.http?text=shirt&discountCategory=15
     ```
 	discount is applied to all product in the men's > shirts category, product name is suffixed as well
 
