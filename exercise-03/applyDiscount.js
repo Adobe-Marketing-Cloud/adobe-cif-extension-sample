@@ -9,7 +9,7 @@ function main(params) {
     // get the product data from previous action and loop
     let products = params.response.body.results
     products.forEach(product => {
-        let categories = product.categories.filter(category => category.id === discountCategory);
+        let categories = product.categories.filter(category => category.id == discountCategory);
 
         console.log( "Categories [0] " + categories[0])
 
