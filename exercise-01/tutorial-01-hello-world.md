@@ -12,22 +12,7 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 - WARNING: PLEASE REPLACE seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME} with your FIRSTNAME and LASTNAME: Example: seat-john-doe -
 ```
 	
-1. Open Terminal.
-	![Image of terminal on desktop](../Resources/Terminal.png)
-
-2. Go to into a workspace (Example: If your workspace directory is *Desktop/l735*)
- 	
-	```ruby
-	cd Desktop/l735
-	```
-	
-3. Checkout all code from Adobe Central GitHub repository
-	
-	```ruby
-	git clone https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample.git 
-	```
-	
-4. Go into adobe-cif-extension-sample
+1. Go into the `adobe-cif-extension-sample` project
 	
 	```ruby
 	cd adobe-cif-extension-sample/exercise-01
@@ -48,9 +33,7 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 	+ ok: created package seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}
 	```
 	
-	
-	
-	Learn more about [OpenWhisk Packages](https://github.com/apache/incubator-openwhisk/blob/master/docs/packages.md)
+    Learn more about [OpenWhisk Packages](https://github.com/apache/incubator-openwhisk/blob/master/docs/packages.md)
 	
 6. Create a action for hello world using a sample provided 
 	
@@ -92,9 +75,12 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 	
 	```ruby
 	wsk action invoke seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/hello-world --result --param-file parameters.json
+
 	```
+
+9. Good to know: `wsk activation poll` lets you tail the logs	
 		
-9. Overall outcome
+10. Overall outcome
 
 ![Image of ex1 outcome](../Resources/ex1.png)  
 
