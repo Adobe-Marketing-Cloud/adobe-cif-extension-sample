@@ -14,7 +14,7 @@ Sections
 
 [Exercise 3 - Build and Deploy a Commerce sequence for to Commerce Cloud](exercise-03/tutorial-03-extend-ccif.md)  
 
-**__DEPRECATED__**[Exercise 4 - Run AEM & view the API change from Ex3 reflected](exercise-04/tutorial-04-modify-deploy-ccif-sequence.md) 
+**__DEPRECATED__** [Exercise 4 - Run AEM & view the API change from Ex3 reflected](exercise-04/tutorial-04-modify-deploy-ccif-sequence.md) 
 
 Links
 -----
