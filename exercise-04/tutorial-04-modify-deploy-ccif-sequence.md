@@ -1,5 +1,7 @@
-Exercise 4 - Integrate CIF Services with AEM
+DEPRECATED Exercise 4 - Integrate CIF Services with AEM
 ============================================
+
+# __NOTE: This exercise uses a package that is for demo purposes ONLY and not supported or maintained by Adobe. Please don't use this in implementation__
 
 ## Objective
 ![Image of ex4 outcome](../Resources/ex4.png)
