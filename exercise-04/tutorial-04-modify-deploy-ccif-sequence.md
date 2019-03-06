@@ -1,5 +1,7 @@
-Exercise 4 - Integrate CIF Services with AEM
+**__DEPRECATED__** Exercise 4 - Integrate CIF Services with AEM
 ============================================
+
+#__NOTE: This exercise uses a package that is for demo purposes ONLY and not supported or maintained by Adobe. Please don't use this in implementation__
 
 ## Objective
 ![Image of ex4 outcome](../Resources/ex4.png)
@@ -7,7 +9,7 @@ Exercise 4 - Integrate CIF Services with AEM
 
 ## Pre work
 
-1. Install the [We.Retail CCIF Connector](weretail-ccif-connector-all-1.0.2.zip) - __NOTE: This package is for demo purposes ONLY and not supported by Adobe. Please don't use this in implementation__
+1. Install the [We.Retail CCIF Connector](weretail-ccif-connector-all-1.0.2.zip)
 2. Configure the CCIF Connector Service
 
 ![CCIF Connector Configuration Service](ccif-connector-configuration.png)
