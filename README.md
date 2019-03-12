@@ -1,7 +1,7 @@
-Adobe Commerce Cloud - Sample Extention Tutorial
-================================================
+Adobe Commerce Integration Framework - Sample Extention Tutorial
+================================================================
 
-This tutorial goes through key exercises to help you understand Adobe IO Runtime and work on Adobe IO Runtime to build extension to Adobe Commerce Cloud. 
+This tutorial goes through key exercises to help you understand Adobe I/O Runtime and work on Adobe I/O Runtime to build extension to Adobe Commerce Integration Framework (CIF REST). 
 
 Sections
 --------
