@@ -1,6 +1,8 @@
 Exercise 3 - Create a CIF Package with Action Sequence
 ========================================================
 
+This exercise goes through the steps of extending and customizing an existing CIF REST service.
+
 ## Objective
 ![Image of ex3 outcome](../Resources/ex3.png)
 
